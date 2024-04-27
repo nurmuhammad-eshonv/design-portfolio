@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Jakarta';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./static/font/plus-jakarta-sans-v8-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-family: 'Jakarta';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./static/font/plus-jakarta-sans-v8-latin-500.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Jakarta';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./static/font/plus-jakarta-sans-v8-latin-700.woff2') format('woff2');
+  }
+.container{
+  max-width: 1111px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

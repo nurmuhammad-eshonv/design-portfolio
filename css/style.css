@@ -1,0 +1,161 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 228px;
+  height: 56px;
+  border: none;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+.card1__title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 70.56px;
+  text-align: center;
+  margin-top: 70px;
+}
+.car1__desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #7a746e;
+  margin-top: 16px;
+}
+.card1-btn:hover {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  background-color: #755cde;
+}
+.wr-card-1-2 {
+  display: flex;
+  gap: 24px;
+}
+.card2 {
+  margin-top: 80px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.first-img {
+  margin-top: 80px;
+}
+@media (max-width: 1180px) {
+}
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wr-card-1-2 {
+  width: 1111px;
+}
+@media (max-width: 1126px) {
+  .card2 {
+    display: flex;
+  }
+  .wr-card-1-2 {
+    margin-left: 170px;
+  }
+}
+.card3 {
+  display: flex;
+  gap: 69px;
+  align-items: center;
+  margin-top: 136px;
+}
+.card3__img {
+  width: 445px;
+  height: 445px;
+  top: 894px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card3__div {
+  width: 540px;
+  height: 306px;
+}
+.card3__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+.card3__desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #7a746e;
+  margin-top: 34px;
+}
+.card3__btn {
+  background-color: #eb7565;
+  margin-top: 32px;
+}
+.card3__btn:hover {
+  cursor: pointer;
+  background-color: #f6a560;
+}
+.img-list {
+  margin-top: 65px;
+  display: flex;
+  gap: 30px;
+  overflow: scroll;
+}
+.next-icon:hover {
+  cursor: pointer;
+}
+.next-icon {
+  margin-top: 56px;
+  margin-left: 508px;
+}
+.card4 {
+  width: 1110px;
+  height: 320px;
+  background-color: black;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  margin-top: 88px;
+  margin-bottom: 30px;
+}
+.card4__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  color: white;
+}
+.card4__descr {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff7f0;
+}
+.card4-btn {
+  background-color: #eb7565;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.card4-btn:hover {
+  cursor: pointer;
+  background-color: #f6a560;
+}
+.ft-nav{
+  margin-top: 30px;
+}
+.logo:hover{
+  cursor: pointer;
+}
